@@ -5,6 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.13.3"
+    "express": "^4.13.3",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "should": "^7.1.0"
