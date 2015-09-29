@@ -7,7 +7,9 @@ module.exports = (function(port) {
 		res.sendStatus(200);
 	});
 
-    var controllers = require('./lib/controllers')();
+    var env = require('./lib/environment');
+
+    var controllers = require('./lib/controllers')(env);
 
     var routers = require('./lib/routers')(controllers);
 
