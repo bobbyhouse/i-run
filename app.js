@@ -15,6 +15,8 @@ module.exports = (function(port) {
 
     app.use('/runs', routers.runs);
 
+    app.use(express.static('public'));
+
 	app.listen(port);
 	console.log('server is listening on port: ' + port);
 
