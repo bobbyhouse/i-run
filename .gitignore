@@ -1,2 +1,3 @@
 lib/environment.js
+public/dist/*
 node_modules/*
